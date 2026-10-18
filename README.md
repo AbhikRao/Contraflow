@@ -4,7 +4,7 @@
 
 Graph Hacks 2026 · Track 01 — Agents That Act on Connected Data
 
-[Live application](https://abhiks-macbook-air.tail9ad3eb.ts.net)
+[Live application](https://abhiks-macbook-air.tail9ad3eb.ts.net) · [Watch the demo](https://youtu.be/Engunbu7ytc)
 
 Contraflow is a tabletop planning sandbox for Chennai’s Adyar river corridor. It uses real OpenStreetMap roads to explain why closing one prominent bridge changes no modeled routes, while closing another adds nearly 12 km across neighborhood routes. A local Qwen agent investigates reports, checks planning constraints and compares recovery options using FalkorDB. A person approves changes.
 
