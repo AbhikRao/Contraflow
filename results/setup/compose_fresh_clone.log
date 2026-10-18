@@ -1,0 +1,36 @@
+# Fresh-clone Docker Compose verification — 2026-10-16 12:01:54 IST
+commit: 51892aa   compose: 5.6.0   docker context: colima-contraflow
+web/dist present in clone: no
+## docker-compose up --build -d
+ Container cffresh-app-1 Creating 
+ Container cffresh-app-1 Created 
+ Container cffresh-falkordb-1 Starting 
+ Container cffresh-falkordb-1 Started 
+ Container cffresh-falkordb-1 Waiting 
+ Container cffresh-falkordb-1 Healthy 
+ Container cffresh-app-1 Starting 
+ Container cffresh-app-1 Started 
+## docker-compose ps
+NAME                 IMAGE                                                                                             COMMAND                  SERVICE    CREATED         STATUS                   PORTS
+cffresh-app-1        cffresh-app                                                                                       "uvicorn contraflow.…"   app        9 seconds ago   Up 6 seconds (healthy)   127.0.0.1:8012->8000/tcp
+cffresh-falkordb-1   falkordb/falkordb:6.0.2@sha256:107455e862a824e45e8e9f5a7fbfdf5e00a08b14e13eae2577c72fd9e3f59ba6   "/var/lib/falkordb/b…"   falkordb   9 seconds ago   Up 9 seconds (healthy)   3000/tcp, 6379/tcp
+## published ports (expect app on 127.0.0.1 only, DB unpublished)
+cffresh-app-1 | Up 6 seconds (healthy) | 127.0.0.1:8012->8000/tcp
+cffresh-falkordb-1 | Up 9 seconds (healthy) | 3000/tcp, 6379/tcp
+## health
+{"ok":true,"frontend_built":true,"falkordb_graphs":["contraflow"],"load":{"loaded":true,"fingerprint":"3f9fada4016930c62fdc41c9169e28c604e3197602ae1bccf849a47191173f1e","seconds":0.186}}
+## root
+HTTP 200
+## traversal
+HTTP 404
+## Maraimalai Adigal closure (rule B)
+{'eligible_zones': 45, 'total_delta_m': 11920.5, 'affected_zones': 5, 'cut_off': [], 'largest': {'zone': 'guindy', 'delta_m': 3629.6}}
+## negated instruction (rules mode)
+proposals: []
+## browser consistency + regression tests against the container
+........                                                                 [100%]
+8 passed in 22.45s
+## teardown
+ Container cffresh-falkordb-1 Removed 
+ Network cffresh_default Removing 
+ Network cffresh_default Removed 

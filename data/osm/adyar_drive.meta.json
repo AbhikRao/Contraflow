@@ -1,0 +1,16 @@
+{
+ "bbox_w_s_e_n": [
+  80.215,
+  12.995,
+  80.275,
+  13.035
+ ],
+ "network_type": "drive",
+ "osmnx": "2.0.6",
+ "fetched_utc": "2026-10-15T14:54:49Z",
+ "nodes": 3483,
+ "edges": 8458,
+ "seconds": 61.9,
+ "source": "OpenStreetMap via Overpass API (osmnx)",
+ "license": "ODbL 1.0, (c) OpenStreetMap contributors"
+}

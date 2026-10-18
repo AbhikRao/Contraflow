@@ -1,0 +1,202 @@
+{
+ "kotturpuram_closed_B": {
+  "median_ms": 2679.6,
+  "runs_ms": [
+   2679.6,
+   2695.2,
+   2639.3
+  ],
+  "graph_ops": 173,
+  "graph_copies": 35,
+  "original": "Reopen Kotturpuram Bridge (northbound)",
+  "summary": "the original recommendation stays best in 1 of 5 tested variation(s)",
+  "variations": [
+   {
+    "changed": "assistance points: general hospitals (rule A) instead of public hospitals (rule B)",
+    "status": "no repair needed",
+    "best": null,
+    "recovered_km": null,
+    "disruption_km": 0.0,
+    "reason": "No zone's shortest route to its nearest assistance point uses the closed roads in this variation, so there is nothing to recover. Disruption in this variation: +0.00 km (scenario: +1.63 km)."
+   },
+   {
+    "changed": "only Kotturpuram Bridge northbound is closed (other direction open)",
+    "status": "remains best",
+    "best": "Reopen Kotturpuram Bridge (northbound)",
+    "recovered_km": 1.63,
+    "disruption_km": 1.63,
+    "reason": "Reopen Kotturpuram Bridge (northbound) still recovers the most: 1.63 km (was 1.63 km); 3 zone route(s) run through it. Disruption in this variation: +1.63 km (scenario: +1.63 km)."
+   },
+   {
+    "changed": "only Kotturpuram Bridge southbound is closed (other direction open)",
+    "status": "no repair needed",
+    "best": null,
+    "recovered_km": null,
+    "disruption_km": 0.0,
+    "reason": "No zone's shortest route to its nearest assistance point uses the closed roads in this variation, so there is nothing to recover. Disruption in this variation: +0.00 km (scenario: +1.63 km)."
+   },
+   {
+    "changed": "Reopen Kotturpuram Bridge (northbound) is not possible (must stay closed)",
+    "status": "original excluded",
+    "best": null,
+    "recovered_km": null,
+    "disruption_km": 1.63,
+    "reason": "Reopen Kotturpuram Bridge (northbound) is ruled out (no reopen on Kotturpuram Bridge northbound). No remaining repair improves access. Disruption in this variation: +1.63 km (scenario: +1.63 km)."
+   },
+   {
+    "changed": "commander reserves Maraimalai Adigal Bridge northbound for emergency vehicles (the open carriageway 5 zone route(s) use now)",
+    "status": "changed: original ranks #2",
+    "best": "Contraflow: reverse Anna Salai (Mount Road), Maraimalai Adigal Bridge, Taluk Office Road (574 m)",
+    "recovered_km": 2.05,
+    "disruption_km": 13.55,
+    "reason": "Contraflow: reverse Anna Salai (Mount Road), Maraimalai Adigal Bridge, Taluk Office Road (574 m) recovers 2.05 km, vs Reopen Kotturpuram Bridge (northbound) 1.63 km. Disruption in this variation: +13.55 km (scenario: +1.63 km) \u2014 the reservation itself removes that carriageway from public routing."
+   }
+  ]
+ },
+ "demo_kotturpuram_reserve_maraimalai_sb_B": {
+  "median_ms": 5408.9,
+  "runs_ms": [
+   5398.8,
+   5416.2,
+   5408.9
+  ],
+  "graph_ops": 356,
+  "graph_copies": 73,
+  "original": "Reopen Kotturpuram Bridge (northbound)",
+  "summary": "the original recommendation stays best in 2 of 5 tested variation(s)",
+  "variations": [
+   {
+    "changed": "assistance points: general hospitals (rule A) instead of public hospitals (rule B)",
+    "status": "changed: no repair helps",
+    "best": null,
+    "recovered_km": null,
+    "disruption_km": 0.62,
+    "reason": "Reopen Kotturpuram Bridge (northbound) is still a candidate but has no change here (0.00 km); no evaluated repair improves access. Disruption in this variation: +0.62 km (scenario: +2.08 km)."
+   },
+   {
+    "changed": "only Kotturpuram Bridge northbound is closed (other direction open)",
+    "status": "remains best",
+    "best": "Reopen Kotturpuram Bridge (northbound)",
+    "recovered_km": 1.63,
+    "disruption_km": 2.08,
+    "reason": "Reopen Kotturpuram Bridge (northbound) still recovers the most: 1.63 km (was 1.63 km); 3 zone route(s) run through it. Disruption in this variation: +2.08 km (scenario: +2.08 km)."
+   },
+   {
+    "changed": "only Kotturpuram Bridge southbound is closed (other direction open)",
+    "status": "original not applicable",
+    "best": null,
+    "recovered_km": null,
+    "disruption_km": 0.44,
+    "reason": "Reopen Kotturpuram Bridge (northbound) is not a candidate (its roads are not closed in this variation). No evaluated repair improves access. Disruption in this variation: +0.44 km (scenario: +2.08 km)."
+   },
+   {
+    "changed": "Reopen Kotturpuram Bridge (northbound) is not possible (must stay closed)",
+    "status": "original excluded",
+    "best": null,
+    "recovered_km": null,
+    "disruption_km": 2.08,
+    "reason": "Reopen Kotturpuram Bridge (northbound) is ruled out (no reopen on Kotturpuram Bridge northbound). No remaining repair improves access. Disruption in this variation: +2.08 km (scenario: +2.08 km)."
+   },
+   {
+    "changed": "commander reserves Maraimalai Adigal Bridge northbound for emergency vehicles (the open carriageway 4 zone route(s) use now)",
+    "status": "remains best",
+    "best": "Reopen Kotturpuram Bridge (northbound)",
+    "recovered_km": 1.63,
+    "disruption_km": 13.55,
+    "reason": "Reopen Kotturpuram Bridge (northbound) still recovers the most: 1.63 km (was 1.63 km); 3 zone route(s) run through it; runner-up Reopen all of Kotturpuram Bridge 1.63 km. Disruption in this variation: +13.55 km (scenario: +2.08 km) \u2014 the reservation itself removes that carriageway from public routing."
+   }
+  ]
+ },
+ "all_crossings_closed_B": {
+  "median_ms": 8815.3,
+  "runs_ms": [
+   8933.3,
+   8675.3,
+   8815.3
+  ],
+  "graph_ops": 554,
+  "graph_copies": 116,
+  "original": "Reopen all of Maraimalai Adigal Bridge",
+  "summary": "the original recommendation stays best in 1 of 4 tested variation(s)",
+  "variations": [
+   {
+    "changed": "assistance points: general hospitals (rule A) instead of public hospitals (rule B)",
+    "status": "remains best",
+    "best": "Reopen all of Maraimalai Adigal Bridge",
+    "recovered_km": 6.69,
+    "disruption_km": 6.69,
+    "reason": "Reopen all of Maraimalai Adigal Bridge still recovers the most: 6.69 km (was 11.92 km); 5 zone route(s) run through it; runner-up Reopen Maraimalai Adigal Bridge (northbound) 6.07 km. Disruption in this variation: +6.69 km (scenario: +13.55 km)."
+   },
+   {
+    "changed": "only Maraimalai Adigal Bridge northbound is closed (other direction open)",
+    "status": "same crossing, narrower action",
+    "best": "Reopen Maraimalai Adigal Bridge (northbound)",
+    "recovered_km": 11.92,
+    "disruption_km": 13.55,
+    "reason": "Reopen all of Maraimalai Adigal Bridge is not a candidate as such (part of it is open in this variation); the best repair is still on the same crossing: Reopen Maraimalai Adigal Bridge (northbound), 11.92 km. Disruption in this variation: +13.55 km (scenario: +13.55 km)."
+   },
+   {
+    "changed": "only Maraimalai Adigal Bridge southbound is closed (other direction open)",
+    "status": "original not applicable",
+    "best": "Reopen Kotturpuram Bridge (northbound)",
+    "recovered_km": 1.63,
+    "disruption_km": 2.08,
+    "reason": "Reopen all of Maraimalai Adigal Bridge is not a candidate (its roads are not closed in this variation). Best: Reopen Kotturpuram Bridge (northbound), 1.63 km. Disruption in this variation: +2.08 km (scenario: +13.55 km)."
+   },
+   {
+    "changed": "Reopen all of Maraimalai Adigal Bridge is not possible (must stay closed)",
+    "status": "original excluded",
+    "best": "Reopen Kotturpuram Bridge (northbound)",
+    "recovered_km": 1.63,
+    "disruption_km": 13.55,
+    "reason": "Reopen all of Maraimalai Adigal Bridge is ruled out (no reopen on Maraimalai Adigal Bridge northbound). Best eligible: Reopen Kotturpuram Bridge (northbound), 1.63 km. Disruption in this variation: +13.55 km (scenario: +13.55 km)."
+   }
+  ]
+ },
+ "all_crossings_closed_A": {
+  "median_ms": 8176.8,
+  "runs_ms": [
+   8353.2,
+   8176.8,
+   8138.2
+  ],
+  "graph_ops": 545,
+  "graph_copies": 116,
+  "original": "Reopen all of Maraimalai Adigal Bridge",
+  "summary": "the original recommendation stays best in 1 of 4 tested variation(s)",
+  "variations": [
+   {
+    "changed": "assistance points: public hospitals (rule B) instead of general hospitals (rule A)",
+    "status": "remains best",
+    "best": "Reopen all of Maraimalai Adigal Bridge",
+    "recovered_km": 11.92,
+    "disruption_km": 13.55,
+    "reason": "Reopen all of Maraimalai Adigal Bridge still recovers the most: 11.92 km (was 6.69 km); 5 zone route(s) run through it; runner-up Reopen Maraimalai Adigal Bridge (northbound) 11.48 km. Disruption in this variation: +13.55 km (scenario: +6.69 km)."
+   },
+   {
+    "changed": "only Maraimalai Adigal Bridge northbound is closed (other direction open)",
+    "status": "same crossing, narrower action",
+    "best": "Reopen Maraimalai Adigal Bridge (northbound)",
+    "recovered_km": 6.69,
+    "disruption_km": 6.69,
+    "reason": "Reopen all of Maraimalai Adigal Bridge is not a candidate as such (part of it is open in this variation); the best repair is still on the same crossing: Reopen Maraimalai Adigal Bridge (northbound), 6.69 km. Disruption in this variation: +6.69 km (scenario: +6.69 km)."
+   },
+   {
+    "changed": "only Maraimalai Adigal Bridge southbound is closed (other direction open)",
+    "status": "same crossing, narrower action",
+    "best": "Reopen Maraimalai Adigal Bridge (southbound)",
+    "recovered_km": 0.62,
+    "disruption_km": 0.62,
+    "reason": "Reopen all of Maraimalai Adigal Bridge is not a candidate as such (part of it is open in this variation); the best repair is still on the same crossing: Reopen Maraimalai Adigal Bridge (southbound), 0.62 km. Disruption in this variation: +0.62 km (scenario: +6.69 km)."
+   },
+   {
+    "changed": "Reopen all of Maraimalai Adigal Bridge is not possible (must stay closed)",
+    "status": "original excluded",
+    "best": "Contraflow: reverse Velachery Main Road (294 m)",
+    "recovered_km": 0.36,
+    "disruption_km": 6.69,
+    "reason": "Reopen all of Maraimalai Adigal Bridge is ruled out (no reopen on Maraimalai Adigal Bridge northbound). Best eligible: Contraflow: reverse Velachery Main Road (294 m), 0.36 km. Disruption in this variation: +6.69 km (scenario: +6.69 km)."
+   }
+  ]
+ }
+}

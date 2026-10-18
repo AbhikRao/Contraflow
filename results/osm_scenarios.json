@@ -1,0 +1,1210 @@
+{
+ "network": {
+  "junctions": 3483,
+  "directed_segments": 8458,
+  "oneway_segments": 788,
+  "river_crossings": [
+   "Turnbulls Road, Gandhi Mandapam Road, Kotturpuram Bridge",
+   "Alandur Road, Abraham Bridge",
+   "Anna Salai (Mount Road), Maraimalai Adigal Bridge",
+   "Kotturpuram Bridge, Gandhi Mandapam Road, Turnbulls Road",
+   "Anna Salai (Mount Road), Maraimalai Adigal Bridge, Taluk Office Road",
+   "Durgabai Deshmukh Road, Thiru Vi Ka Bridge",
+   "Durgabai Deshmukh Road, Thiru Vi Ka Bridge"
+  ],
+  "zones": 46
+ },
+ "rules": {
+  "A_general_hospitals": {
+   "assistance_points": [
+    "Corporation Hospital",
+    "Venkataeswara Hospitals",
+    "HEALTH",
+    "Annamalai Hospital",
+    "Ezhil Hospital",
+    "Raju Hospitals",
+    "Sri Kalyan Hospital",
+    "Chennai Kaliappa Hospital",
+    "Santosh Hospital Pvt Ltd",
+    "Girishwari Hospital Pvt Ltd",
+    "Dr.Kamakshi Memorial Hospital",
+    "Lakshmi Hospital",
+    "B.S.S. Hospital",
+    "Janamma Hospital",
+    "Nandalala Medical Foundation",
+    "New Balaji Hospital, Chennai",
+    "Padmapriya Hospital Pvt. Ltd.",
+    "Apollo Specialty Hospitals Private Limited",
+    "Yogi Vedha Kumari Hospital",
+    "Sri Ranga Hospitals",
+    "Chamiers Day Care Center",
+    "Gas Hospital",
+    "Motherhood Hospital",
+    "Genesis Womens Hospital",
+    "Mint Hospitals",
+    "Global Hospitals",
+    "Health Centre",
+    "\u0b9a\u0bc8\u0ba4\u0bbe\u0baa\u0bcd\u0baa\u0bc7\u0b9f\u0bcd\u0b9f\u0bc8 \u0b85\u0bb0\u0b9a\u0bc1 \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5\u0bae\u0ba9\u0bc8",
+    "\u0b86\u0ba8\u0bcd\u0ba4\u0bbf\u0bb0 \u0bae\u0bbe\u0ba8\u0bbf\u0bb2 \u0b9a\u0baa\u0bbe",
+    "Billroth Hospital",
+    "Fortis Malar Hospital",
+    "Apollo Speciality Hospital - Block A",
+    "Apollo Speciality Hospital - Block B",
+    "Apollo Speciality Hospital - Block C",
+    "Bora Hospital",
+    "Vasan",
+    "Shivasundar Hospital"
+   ],
+   "import_s": 0.171,
+   "baseline_cut_off": [
+    "Velachery"
+   ],
+   "baseline_nx_mismatches": 0,
+   "single_crossing_closures": [
+    {
+     "crossing": "Turnbulls Road, Gandhi Mandapam Road, Kotturpuram Bridge",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 0.0,
+     "worst": [
+      0.0,
+      "West Saidapet"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Alandur Road, Abraham Bridge",
+     "segments": 2,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 0.0,
+     "worst": [
+      0.0,
+      "West Saidapet"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Anna Salai (Mount Road), Maraimalai Adigal Bridge",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 6690.1,
+     "worst": [
+      2278.0,
+      "Guindy"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Kotturpuram Bridge, Gandhi Mandapam Road, Turnbulls Road",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 0.0,
+     "worst": [
+      0.0,
+      "West Saidapet"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Anna Salai (Mount Road), Maraimalai Adigal Bridge, Taluk Office Road",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 617.7,
+     "worst": [
+      617.7,
+      "Jothiammal Nagar"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Durgabai Deshmukh Road, Thiru Vi Ka Bridge",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 0.0,
+     "worst": [
+      0.0,
+      "West Saidapet"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Durgabai Deshmukh Road, Thiru Vi Ka Bridge",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 0.0,
+     "worst": [
+      0.0,
+      "West Saidapet"
+     ],
+     "nx_mismatches": 0
+    }
+   ],
+   "all_crossings_closed": {
+    "newly_cut_off": [],
+    "restored": [],
+    "added_m": 6690.1,
+    "worst": [
+     2278.0,
+     "Guindy"
+    ],
+    "nx_mismatches": 0
+   },
+   "reopen_one_crossing": [
+    {
+     "reopen": "Turnbulls Road, Gandhi Mandapam Road, Kotturpuram Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 6690.1,
+      "worst": [
+       2278.0,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Alandur Road, Abraham Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 6690.1,
+      "worst": [
+       2278.0,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Anna Salai (Mount Road), Maraimalai Adigal Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": -6072.4,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 617.7,
+      "worst": [
+       617.7,
+       "Jothiammal Nagar"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Kotturpuram Bridge, Gandhi Mandapam Road, Turnbulls Road",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 6690.1,
+      "worst": [
+       2278.0,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Anna Salai (Mount Road), Maraimalai Adigal Bridge, Taluk Office Road",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 6690.1,
+      "worst": [
+       2278.0,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Durgabai Deshmukh Road, Thiru Vi Ka Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 6690.1,
+      "worst": [
+       2278.0,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Durgabai Deshmukh Road, Thiru Vi Ka Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 6690.1,
+      "worst": [
+       2278.0,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    }
+   ],
+   "contraflow_candidates": 13,
+   "contraflow_one_segment": [
+    {
+     "reverse_segment": "365988846_6444634789_0",
+     "road": "Velachery Main Road",
+     "len_m": 294.23,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": -362.2,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "13774656784_2198054401_0",
+     "road": "Sardar Patel Road",
+     "len_m": 1310.29,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": -71.7,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "11402837826_5460773146_0",
+     "road": "Sardar Patel Road",
+     "len_m": 13.39,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "1411621776_278613475_0",
+     "road": "Bazaar Road",
+     "len_m": 160.94,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "14148225611_6245793330_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 13.61,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "2198054401_2241060226_0",
+     "road": "Sardar Patel Road",
+     "len_m": 303.98,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "2237592459_11052199789_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 63.66,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "2241060226_11402837826_0",
+     "road": "Sardar Patel Road",
+     "len_m": 100.74,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "247713922_14148225611_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 106.92,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "278613475_247713922_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 24.6,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "329314306_1411621776_0",
+     "road": "Bazaar Road",
+     "len_m": 83.92,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "5460773146_365988846_0",
+     "road": "Sardar Patel Road",
+     "len_m": 184.68,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "6245793329_2237592459_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 461.21,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    }
+   ]
+  },
+  "B_public_hospitals": {
+   "assistance_points": [
+    "Corporation Hospital",
+    "Government Hospital, Adyar",
+    "Kanamapet Government Hospital",
+    "Chennai Corporation 24 Hours Maternity Hospital"
+   ],
+   "import_s": 0.125,
+   "baseline_cut_off": [
+    "Velachery"
+   ],
+   "baseline_nx_mismatches": 0,
+   "single_crossing_closures": [
+    {
+     "crossing": "Turnbulls Road, Gandhi Mandapam Road, Kotturpuram Bridge",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 2799.2,
+     "worst": [
+      1175.8,
+      "Kottur Gardens"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Alandur Road, Abraham Bridge",
+     "segments": 2,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 0.0,
+     "worst": [
+      0.0,
+      "West Saidapet"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Anna Salai (Mount Road), Maraimalai Adigal Bridge",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 13474.4,
+     "worst": [
+      4018.1,
+      "Guindy"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Kotturpuram Bridge, Gandhi Mandapam Road, Turnbulls Road",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 0.0,
+     "worst": [
+      0.0,
+      "West Saidapet"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Anna Salai (Mount Road), Maraimalai Adigal Bridge, Taluk Office Road",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 441.8,
+     "worst": [
+      441.8,
+      "Jothiammal Nagar"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Durgabai Deshmukh Road, Thiru Vi Ka Bridge",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 0.0,
+     "worst": [
+      0.0,
+      "West Saidapet"
+     ],
+     "nx_mismatches": 0
+    },
+    {
+     "crossing": "Durgabai Deshmukh Road, Thiru Vi Ka Bridge",
+     "segments": 1,
+     "newly_cut_off": [],
+     "restored": [],
+     "added_m": 0.0,
+     "worst": [
+      0.0,
+      "West Saidapet"
+     ],
+     "nx_mismatches": 0
+    }
+   ],
+   "all_crossings_closed": {
+    "newly_cut_off": [],
+    "restored": [],
+    "added_m": 16273.6,
+    "worst": [
+     4018.1,
+     "Guindy"
+    ],
+    "nx_mismatches": 0
+   },
+   "reopen_one_crossing": [
+    {
+     "reopen": "Turnbulls Road, Gandhi Mandapam Road, Kotturpuram Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": -2799.2,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 13474.4,
+      "worst": [
+       4018.1,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Alandur Road, Abraham Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 16273.6,
+      "worst": [
+       4018.1,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Anna Salai (Mount Road), Maraimalai Adigal Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": -13032.6,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 3241.0,
+      "worst": [
+       1175.8,
+       "Kottur Gardens"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Kotturpuram Bridge, Gandhi Mandapam Road, Turnbulls Road",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 16273.6,
+      "worst": [
+       4018.1,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Anna Salai (Mount Road), Maraimalai Adigal Bridge, Taluk Office Road",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 16273.6,
+      "worst": [
+       4018.1,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Durgabai Deshmukh Road, Thiru Vi Ka Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 16273.6,
+      "worst": [
+       4018.1,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reopen": "Durgabai Deshmukh Road, Thiru Vi Ka Bridge",
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     },
+     "vs_baseline": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 16273.6,
+      "worst": [
+       4018.1,
+       "Guindy"
+      ],
+      "nx_mismatches": 0
+     }
+    }
+   ],
+   "contraflow_candidates": 26,
+   "contraflow_one_segment": [
+    {
+     "reverse_segment": "365988846_6444634789_0",
+     "road": "Velachery Main Road",
+     "len_m": 294.23,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": -362.2,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "13774656784_2198054401_0",
+     "road": "Sardar Patel Road",
+     "len_m": 1310.29,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": -71.7,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "11402837826_5460773146_0",
+     "road": "Sardar Patel Road",
+     "len_m": 13.39,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "1183430564_268789815_0",
+     "road": "Sardar Patel Road",
+     "len_m": 39.44,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "12107403268_312031374_0",
+     "road": "Sardar Patel Road",
+     "len_m": 83.25,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "12124624594_1183430564_0",
+     "road": "Sardar Patel Road",
+     "len_m": 27.29,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "14094110631_268789822_0",
+     "road": "Sardar Patel Road",
+     "len_m": 53.68,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "1411621803_1411621892_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 179.4,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "1411621892_14148225602_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 15.57,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "14148225602_278613475_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 145.64,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "14148225611_6245793330_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 13.61,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "2198054401_2241060226_0",
+     "road": "Sardar Patel Road",
+     "len_m": 303.98,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "2237592459_11052199789_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 63.66,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "2241060226_11402837826_0",
+     "road": "Sardar Patel Road",
+     "len_m": 100.74,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "247713922_14148225611_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 106.92,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "256035491_278613467_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 37.8,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "268789815_671200714_0",
+     "road": "Sardar Patel Road",
+     "len_m": 328.48,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "268789820_13774656784_0",
+     "road": "Sardar Patel Road",
+     "len_m": 12.74,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "268789822_12124624594_0",
+     "road": "Sardar Patel Road",
+     "len_m": 205.54,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "278613467_301300685_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 72.2,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "278613475_247713922_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 24.6,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "301300685_1411621803_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 111.79,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "312031374_14094110631_0",
+     "road": "Sardar Patel Road",
+     "len_m": 107.44,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "5460773146_365988846_0",
+     "road": "Sardar Patel Road",
+     "len_m": 184.68,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "6245793329_2237592459_0",
+     "road": "Anna Salai (Mount Road)",
+     "len_m": 461.21,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    },
+    {
+     "reverse_segment": "671200714_268789820_0",
+     "road": "Sardar Patel Road",
+     "len_m": 34.4,
+     "vs_flood": {
+      "newly_cut_off": [],
+      "restored": [],
+      "added_m": 0.0,
+      "worst": [
+       0.0,
+       "West Saidapet"
+      ],
+      "nx_mismatches": 0
+     }
+    }
+   ]
+  }
+ },
+ "timings_ms": {
+  "access_all_zones": {
+   "n": 71,
+   "median": 25.49,
+   "p95": 28.85,
+   "min": 17.17,
+   "max": 30.87
+  },
+  "graph_copy": {
+   "n": 69,
+   "median": 21.63,
+   "p95": 28.68,
+   "min": 20.86,
+   "max": 36.99
+  },
+  "mutate": {
+   "n": 69,
+   "median": 1.59,
+   "p95": 1.77,
+   "min": 0.93,
+   "max": 4.06
+  }
+ }
+}

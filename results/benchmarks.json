@@ -1,0 +1,77 @@
+{
+ "environment": {
+  "machine": "macOS-27.2-arm64-arm-64bit",
+  "python": "3.12.13",
+  "falkordb_module": 60002,
+  "network": {
+   "junctions": 3483,
+   "segments": 8458,
+   "zones": 45
+  },
+  "date": "2026-10-16 01:58"
+ },
+ "import_base_graph_ms": 197.7,
+ "import_detail": {
+  "loaded": true,
+  "fingerprint": "3483:8458:45:40:4:v3",
+  "seconds": 0.197
+ },
+ "access_query_all_zones_base_graph": {
+  "n": 50,
+  "median_ms": 9.41,
+  "p95_ms": 10.07,
+  "min_ms": 8.85,
+  "max_ms": 34.95
+ },
+ "graph_copy_plus_delete": {
+  "n": 30,
+  "median_ms": 32.21,
+  "p95_ms": 34.78,
+  "min_ms": 30.62,
+  "max_ms": 36.32
+ },
+ "evaluate_baseline": {
+  "n": 30,
+  "median_ms": 9.59,
+  "p95_ms": 11.22,
+  "min_ms": 9.2,
+  "max_ms": 20.2
+ },
+ "evaluate_single_bridge_closure": {
+  "n": 30,
+  "median_ms": 44.12,
+  "p95_ms": 46.12,
+  "min_ms": 42.56,
+  "max_ms": 53.64
+ },
+ "evaluate_all_crossings_closed": {
+  "n": 30,
+  "median_ms": 44.72,
+  "p95_ms": 61.05,
+  "min_ms": 42.89,
+  "max_ms": 88.23
+ },
+ "interventions_all_closed": {
+  "n": 10,
+  "median_ms": 1122.74,
+  "p95_ms": 1141.63,
+  "min_ms": 1110.17,
+  "max_ms": 1152.7,
+  "candidates": 23,
+  "falkordb_operations": 120
+ },
+ "agent_deterministic_field_report": {
+  "n": 10,
+  "median_ms": 866.67,
+  "p95_ms": 876.43,
+  "min_ms": 859.46,
+  "max_ms": 918.17
+ },
+ "agent_local_llm_field_report": {
+  "n": 5,
+  "median_ms": 15983.95,
+  "p95_ms": 16504.51,
+  "min_ms": 15269.45,
+  "max_ms": 33811.62
+ }
+}

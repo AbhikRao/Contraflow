@@ -1,0 +1,690 @@
+{
+ "hospitals": [
+  {
+   "osm": "node/303590777",
+   "name": "Corporation Hospital",
+   "lon": 80.2572467,
+   "lat": 13.0336624
+  },
+  {
+   "osm": "node/312000326",
+   "name": "Cancer Institute",
+   "lon": 80.239884,
+   "lat": 13.0061338
+  },
+  {
+   "osm": "node/375668400",
+   "name": "Venkataeswara Hospitals",
+   "lon": 80.2440921,
+   "lat": 13.0293624
+  },
+  {
+   "osm": "node/1560720462",
+   "name": "Vasan Eye Care Hospital",
+   "lon": 80.2552541,
+   "lat": 13.0015307
+  },
+  {
+   "osm": "node/2587530810",
+   "name": "Chennai Skin Foundation",
+   "lon": 80.2594702,
+   "lat": 13.0205681
+  },
+  {
+   "osm": "node/4764302980",
+   "name": "HEALTH",
+   "lon": 80.2395364,
+   "lat": 13.0135999
+  },
+  {
+   "osm": "node/5631872266",
+   "name": "Annamalai Hospital",
+   "lon": 80.2228983,
+   "lat": 13.031147
+  },
+  {
+   "osm": "node/5631872277",
+   "name": "Ezhil Hospital",
+   "lon": 80.2207913,
+   "lat": 13.0319539
+  },
+  {
+   "osm": "node/6886285320",
+   "name": "Apollo Cancer Centres",
+   "lon": 80.2451004,
+   "lat": 13.0337515
+  },
+  {
+   "osm": "node/6914280086",
+   "name": "Raju Hospitals",
+   "lon": 80.230346,
+   "lat": 13.0329888
+  },
+  {
+   "osm": "node/6914764653",
+   "name": "Sri Kalyan Hospital",
+   "lon": 80.2507134,
+   "lat": 13.0063976
+  },
+  {
+   "osm": "node/6914880546",
+   "name": "Chennai Kaliappa Hospital",
+   "lon": 80.2558082,
+   "lat": 13.0268492
+  },
+  {
+   "osm": "node/6914896214",
+   "name": "R.G. Stone Urological Research Institute",
+   "lon": 80.2278288,
+   "lat": 13.0240792
+  },
+  {
+   "osm": "node/6915836812",
+   "name": "Huma Specialists Hospital and Research Centre Pvt Ltd",
+   "lon": 80.235353,
+   "lat": 13.0282655
+  },
+  {
+   "osm": "node/6926055922",
+   "name": "Ammayi Eye Hospital",
+   "lon": 80.2159045,
+   "lat": 13.0331935
+  },
+  {
+   "osm": "node/6926107781",
+   "name": "Radhatri Nethralaya",
+   "lon": 80.2394965,
+   "lat": 13.0339283
+  },
+  {
+   "osm": "node/6926437405",
+   "name": "Frontline Eye Hospital",
+   "lon": 80.2517212,
+   "lat": 13.0323531
+  },
+  {
+   "osm": "node/6926953017",
+   "name": "Kaliappa Renal Center",
+   "lon": 80.2566481,
+   "lat": 13.0274616
+  },
+  {
+   "osm": "node/6927292449",
+   "name": "Krishna Eye And Ent Hospitals",
+   "lon": 80.2339764,
+   "lat": 13.0343985
+  },
+  {
+   "osm": "node/6927769046",
+   "name": "Santosh Hospital Pvt Ltd",
+   "lon": 80.2691898,
+   "lat": 12.995229
+  },
+  {
+   "osm": "node/6928167787",
+   "name": "Girishwari Hospital Pvt Ltd",
+   "lon": 80.2519137,
+   "lat": 13.0349787
+  },
+  {
+   "osm": "node/6928727073",
+   "name": "Madras Ent Research Foundation",
+   "lon": 80.2541439,
+   "lat": 13.0268688
+  },
+  {
+   "osm": "node/6928920472",
+   "name": "Dr.Kamakshi Memorial Hospital",
+   "lon": 80.2520867,
+   "lat": 13.0022187
+  },
+  {
+   "osm": "node/6928920473",
+   "name": "Dr.Duraiswami Eye Hospital",
+   "lon": 80.2279374,
+   "lat": 13.034051
+  },
+  {
+   "osm": "node/6929259906",
+   "name": "Lakshmi Hospital",
+   "lon": 80.2218689,
+   "lat": 13.0314888
+  },
+  {
+   "osm": "node/6929592168",
+   "name": "Balakrishna Eye Hospital",
+   "lon": 80.2269866,
+   "lat": 13.0274436
+  },
+  {
+   "osm": "node/6929625895",
+   "name": "B.S.S. Hospital",
+   "lon": 80.2655232,
+   "lat": 13.026013
+  },
+  {
+   "osm": "node/6930188138",
+   "name": "Chennai Skin Foundation and Yesudian Research Institute",
+   "lon": 80.2592924,
+   "lat": 13.0210394
+  },
+  {
+   "osm": "node/6933010451",
+   "name": "Janamma Hospital",
+   "lon": 80.2623196,
+   "lat": 13.0269457
+  },
+  {
+   "osm": "node/6933038566",
+   "name": "Indira Eye Hospital",
+   "lon": 80.2622388,
+   "lat": 13.0222055
+  },
+  {
+   "osm": "node/6933510877",
+   "name": "Jayam Polyclinc",
+   "lon": 80.2603345,
+   "lat": 12.9958562
+  },
+  {
+   "osm": "node/6934271111",
+   "name": "M N Eye Hospital",
+   "lon": 80.2603599,
+   "lat": 12.996767
+  },
+  {
+   "osm": "node/6934325882",
+   "name": "Nandalala Medical Foundation",
+   "lon": 80.2615173,
+   "lat": 13.0328516
+  },
+  {
+   "osm": "node/6934340623",
+   "name": "Navasuja Sankara Nethralaya",
+   "lon": 80.2607878,
+   "lat": 13.0265108
+  },
+  {
+   "osm": "node/6934340658",
+   "name": "New Balaji Hospital, Chennai",
+   "lon": 80.2311185,
+   "lat": 13.0316469
+  },
+  {
+   "osm": "node/6934340766",
+   "name": "Padmapriya Hospital Pvt. Ltd.",
+   "lon": 80.2537027,
+   "lat": 12.9996223
+  },
+  {
+   "osm": "node/6934340781",
+   "name": "Palani Balaji Fertility Centre",
+   "lon": 80.2235084,
+   "lat": 13.0122123
+  },
+  {
+   "osm": "node/6936391765",
+   "name": "Apollo Specialty Hospitals Private Limited",
+   "lon": 80.2711008,
+   "lat": 13.0177957
+  },
+  {
+   "osm": "node/6936695172",
+   "name": "Yogi Vedha Kumari Hospital",
+   "lon": 80.2631588,
+   "lat": 13.0269877
+  },
+  {
+   "osm": "node/6936708005",
+   "name": "Sai Ortho Care Hospital",
+   "lon": 80.2371645,
+   "lat": 13.0332775
+  },
+  {
+   "osm": "node/7210911300",
+   "name": "Sri Ranga Hospitals",
+   "lon": 80.2636265,
+   "lat": 13.0290525
+  },
+  {
+   "osm": "node/7210948177",
+   "name": "Chamiers Day Care Center",
+   "lon": 80.2446245,
+   "lat": 13.0297278
+  },
+  {
+   "osm": "node/7213449202",
+   "name": "Gas Hospital",
+   "lon": 80.2540981,
+   "lat": 13.003026
+  },
+  {
+   "osm": "node/7257421557",
+   "name": "Motherhood Hospital",
+   "lon": 80.2511993,
+   "lat": 13.0312006
+  },
+  {
+   "osm": "node/7257421559",
+   "name": "Government Hospital, Adyar",
+   "lon": 80.2562121,
+   "lat": 12.9979497
+  },
+  {
+   "osm": "node/7257421593",
+   "name": "Genesis Womens Hospital",
+   "lon": 80.2465468,
+   "lat": 13.034922
+  },
+  {
+   "osm": "node/7257421596",
+   "name": "Radhatri Nethralaya",
+   "lon": 80.2398192,
+   "lat": 13.0342203
+  },
+  {
+   "osm": "node/7257421602",
+   "name": "Kanamapet Government Hospital",
+   "lon": 80.2261208,
+   "lat": 13.0298989
+  },
+  {
+   "osm": "node/7823415065",
+   "name": "Mint Hospitals",
+   "lon": 80.258796,
+   "lat": 13.0013494
+  },
+  {
+   "osm": "node/13096237915",
+   "name": "Iswarya Fertility Center",
+   "lon": 80.2504829,
+   "lat": 13.0064894
+  },
+  {
+   "osm": "node/14105458201",
+   "name": "Helios Advanced Skin Hair & Laser Clinic Pvt Ltd",
+   "lon": 80.2547353,
+   "lat": 13.0347504
+  },
+  {
+   "osm": "way/32686766",
+   "name": "King's Institute of Preventive Medicine & Research",
+   "lon": 80.2173022049866,
+   "lat": 13.014573805185899
+  },
+  {
+   "osm": "way/170104584",
+   "name": "Global Hospitals",
+   "lon": 80.2514708556224,
+   "lat": 13.00981830470426
+  },
+  {
+   "osm": "way/181579506",
+   "name": "Health Centre",
+   "lon": 80.23933228308425,
+   "lat": 13.013608850658313
+  },
+  {
+   "osm": "way/211900029",
+   "name": "Cancer Hospital",
+   "lon": 80.2484455157888,
+   "lat": 13.0093603710438
+  },
+  {
+   "osm": "way/214188197",
+   "name": "\u0b9a\u0bc8\u0ba4\u0bbe\u0baa\u0bcd\u0baa\u0bc7\u0b9f\u0bcd\u0b9f\u0bc8 \u0b85\u0bb0\u0b9a\u0bc1 \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5\u0bae\u0ba9\u0bc8",
+   "lon": 80.2240527882356,
+   "lat": 13.020454124879333
+  },
+  {
+   "osm": "way/217726810",
+   "name": "\u0b86\u0ba8\u0bcd\u0ba4\u0bbf\u0bb0 \u0bae\u0bbe\u0ba8\u0bbf\u0bb2 \u0b9a\u0baa\u0bbe",
+   "lon": 80.25970596836886,
+   "lat": 13.017812237175029
+  },
+  {
+   "osm": "way/218149507",
+   "name": "Billroth Hospital",
+   "lon": 80.25675277969896,
+   "lat": 13.027350890076782
+  },
+  {
+   "osm": "way/218163938",
+   "name": "Fortis Malar Hospital",
+   "lon": 80.2586027785889,
+   "lat": 13.01016235750304
+  },
+  {
+   "osm": "way/262012749",
+   "name": "Chennai Corporation 24 Hours Maternity Hospital",
+   "lon": 80.22412465036713,
+   "lat": 13.020876041997715
+  },
+  {
+   "osm": "way/315499682",
+   "name": "Apollo Speciality Hospital - Block A",
+   "lon": 80.24517412484859,
+   "lat": 13.033633073616427
+  },
+  {
+   "osm": "way/315499747",
+   "name": "Apollo Speciality Hospital - Block B",
+   "lon": 80.2456430389277,
+   "lat": 13.033613451123916
+  },
+  {
+   "osm": "way/315499965",
+   "name": "Apollo Speciality Hospital - Block C",
+   "lon": 80.24566401127906,
+   "lat": 13.033933814435851
+  },
+  {
+   "osm": "way/337923794",
+   "name": "Chitra Maternity andSurgival Centre",
+   "lon": 80.2229124565786,
+   "lat": 13.02343574605346
+  },
+  {
+   "osm": "way/337929079",
+   "name": "Bora Hospital",
+   "lon": 80.2222779,
+   "lat": 13.022310950000003
+  },
+  {
+   "osm": "way/343141649",
+   "name": "Vasan",
+   "lon": 80.2257670245286,
+   "lat": 13.021753142804819
+  },
+  {
+   "osm": "way/374048313",
+   "name": "Shivasundar Hospital",
+   "lon": 80.2574761622855,
+   "lat": 12.997769431907043
+  }
+ ],
+ "places": [
+  {
+   "osm": "node/243053506",
+   "name": "Alwarpet",
+   "lon": 80.2545491,
+   "lat": 13.0338602
+  },
+  {
+   "osm": "node/243060007",
+   "name": "Nandanam",
+   "lon": 80.240256,
+   "lat": 13.0286286
+  },
+  {
+   "osm": "node/243060039",
+   "name": "Raja Annamalai Puram",
+   "lon": 80.253937,
+   "lat": 13.0244783
+  },
+  {
+   "osm": "node/243060101",
+   "name": "Abhiramapuram",
+   "lon": 80.2582995,
+   "lat": 13.0310236
+  },
+  {
+   "osm": "node/247677540",
+   "name": "Mylapore",
+   "lon": 80.2700166,
+   "lat": 13.0316473
+  },
+  {
+   "osm": "node/247677647",
+   "name": "Mandaveli",
+   "lon": 80.2627877,
+   "lat": 13.0258445
+  },
+  {
+   "osm": "node/247689106",
+   "name": "Saidapet",
+   "lon": 80.2239536,
+   "lat": 13.020817
+  },
+  {
+   "osm": "node/247689703",
+   "name": "East Abhiramapuram",
+   "lon": 80.2617914,
+   "lat": 13.0342682
+  },
+  {
+   "osm": "node/248196797",
+   "name": "MRC Nagar",
+   "lon": 80.2706525,
+   "lat": 13.0196693
+  },
+  {
+   "osm": "node/249497704",
+   "name": "Gandhinagar",
+   "lon": 80.2538632,
+   "lat": 13.0089932
+  },
+  {
+   "osm": "node/249497705",
+   "name": "Besant Nagar",
+   "lon": 80.2682259,
+   "lat": 12.9996907
+  },
+  {
+   "osm": "node/249497711",
+   "name": "Adyar",
+   "lon": 80.2577791,
+   "lat": 13.00645
+  },
+  {
+   "osm": "node/249497723",
+   "name": "Little Mount",
+   "lon": 80.2266882,
+   "lat": 13.0141864
+  },
+  {
+   "osm": "node/249497729",
+   "name": "Guindy",
+   "lon": 80.2203646,
+   "lat": 13.0087095
+  },
+  {
+   "osm": "node/249497870",
+   "name": "Kotturpuram",
+   "lon": 80.2435512,
+   "lat": 13.0193703
+  },
+  {
+   "osm": "node/250319611",
+   "name": "Kannammapet",
+   "lon": 80.2280783,
+   "lat": 13.0323256
+  },
+  {
+   "osm": "node/250319617",
+   "name": "CIT Nagar",
+   "lon": 80.2342825,
+   "lat": 13.0293843
+  },
+  {
+   "osm": "node/256031797",
+   "name": "West Saidapet",
+   "lon": 80.2204237,
+   "lat": 13.0252576
+  },
+  {
+   "osm": "node/256035567",
+   "name": "Todhunter Nagar",
+   "lon": 80.2308086,
+   "lat": 13.0226153
+  },
+  {
+   "osm": "node/256035579",
+   "name": "Jothiammal Nagar",
+   "lon": 80.2288972,
+   "lat": 13.0195105
+  },
+  {
+   "osm": "node/257431352",
+   "name": "Kasturibai Nagar",
+   "lon": 80.2509384,
+   "lat": 13.0040436
+  },
+  {
+   "osm": "node/257431354",
+   "name": "Shastri Nagar",
+   "lon": 80.2599116,
+   "lat": 12.9987729
+  },
+  {
+   "osm": "node/269767377",
+   "name": "Srinagar Colony",
+   "lon": 80.2302782,
+   "lat": 13.0134666
+  },
+  {
+   "osm": "node/304287902",
+   "name": "Raj Bhavan",
+   "lon": 80.2263985,
+   "lat": 13.0079401
+  },
+  {
+   "osm": "node/312024616",
+   "name": "Sriram Nagar",
+   "lon": 80.2443172,
+   "lat": 13.0035494
+  },
+  {
+   "osm": "node/313774973",
+   "name": "Arunachalapuram",
+   "lon": 80.2608522,
+   "lat": 13.0087347
+  },
+  {
+   "osm": "node/313775083",
+   "name": "Padmanabha Nagar",
+   "lon": 80.2587292,
+   "lat": 13.0045512
+  },
+  {
+   "osm": "node/313775085",
+   "name": "Karpagam Garden",
+   "lon": 80.2615446,
+   "lat": 13.0071776
+  },
+  {
+   "osm": "node/313775328",
+   "name": "Jeevarathinam Nagar",
+   "lon": 80.2606946,
+   "lat": 13.002057
+  },
+  {
+   "osm": "node/313775329",
+   "name": "Parameswari Nagar",
+   "lon": 80.2581254,
+   "lat": 13.0027868
+  },
+  {
+   "osm": "node/335480495",
+   "name": "Bakthavatchalam Nagar",
+   "lon": 80.2530941,
+   "lat": 13.003406
+  },
+  {
+   "osm": "node/335535144",
+   "name": "Venkateswara Nagar",
+   "lon": 80.2620566,
+   "lat": 13.00328
+  },
+  {
+   "osm": "node/335535157",
+   "name": "Damodarapuram",
+   "lon": 80.2629813,
+   "lat": 13.0018073
+  },
+  {
+   "osm": "node/355515108",
+   "name": "Sriram Nagar",
+   "lon": 80.2500591,
+   "lat": 13.031397
+  },
+  {
+   "osm": "node/360894240",
+   "name": "Urur Kuppam",
+   "lon": 80.2732889,
+   "lat": 13.0041761
+  },
+  {
+   "osm": "node/386002557",
+   "name": "Lotus Colony",
+   "lon": 80.2403771,
+   "lat": 13.0296417
+  },
+  {
+   "osm": "node/389518725",
+   "name": "Ganesapuram",
+   "lon": 80.2450086,
+   "lat": 13.0308533
+  },
+  {
+   "osm": "node/410616097",
+   "name": "Jeth Nagar",
+   "lon": 80.262238,
+   "lat": 13.027831
+  },
+  {
+   "osm": "node/410691069",
+   "name": "Kesavaperumalpuram",
+   "lon": 80.2541184,
+   "lat": 13.0211245
+  },
+  {
+   "osm": "node/410699145",
+   "name": "Kottur Gardens",
+   "lon": 80.2441277,
+   "lat": 13.0206311
+  },
+  {
+   "osm": "node/410703648",
+   "name": "Varadapuram",
+   "lon": 80.2459988,
+   "lat": 13.0154212
+  },
+  {
+   "osm": "node/410703669",
+   "name": "Tiruvalluvar Nagar",
+   "lon": 80.2458186,
+   "lat": 13.0181474
+  },
+  {
+   "osm": "node/1730498127",
+   "name": "Central Government Officers Quarters, General Pool Accomodation",
+   "lon": 80.2652826,
+   "lat": 13.0021964
+  },
+  {
+   "osm": "node/2218345692",
+   "name": "Karpagam Avenue",
+   "lon": 80.2678296,
+   "lat": 13.0219794
+  },
+  {
+   "osm": "node/2587530813",
+   "name": "Ramakrishna Nagar",
+   "lon": 80.261062,
+   "lat": 13.024366
+  },
+  {
+   "osm": "node/10559615705",
+   "name": "GOCHS Colony",
+   "lon": 80.2691711,
+   "lat": 12.9978724
+  },
+  {
+   "osm": "way/422418168",
+   "name": "Velachery",
+   "lon": 80.2201765474928,
+   "lat": 12.980821188241675
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "investigations_written": 10,
+ "graph_stats": {
+  "investigations": 10,
+  "reports": 10,
+  "findings": 20,
+  "proposals": 0,
+  "decisions": 0
+ },
+ "journal_lines": 170,
+ "journal_lines_valid_json": true,
+ "replayed_ops": 170,
+ "stats_after_replay_equal": true,
+ "each_agent_recalls_the_other_agents_findings": {
+  "agent_a": true,
+  "agent_b": true
+ }
+}

@@ -1,0 +1,59 @@
+name: contraflow-public
+services:
+  db:
+    image: falkordb/falkordb:6.0.2@sha256:107455e862a824e45e8e9f5a7fbfdf5e00a08b14e13eae2577c72fd9e3f59ba6
+    environment:
+      BROWSER: "0"
+      REDIS_ARGS: "--requirepass ${PUBLIC_DB_PASSWORD:?set isolated DB password} --appendonly yes --maxmemory 1024mb --maxmemory-policy noeviction"
+      FALKORDB_ARGS: "MAX_QUEUED_QUERIES 12 TIMEOUT 1500 RESULTSET_SIZE 10000"
+      REDISCLI_AUTH: "${PUBLIC_DB_PASSWORD}"
+    volumes:
+      - graph-data:/var/lib/falkordb/data
+    restart: unless-stopped
+    mem_limit: 1536m
+    cpus: 2
+    pids_limit: 256
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 2s
+      retries: 30
+    logging:
+      driver: json-file
+      options: {max-size: "5m", max-file: "2"}
+  app:
+    build:
+      context: ..
+      dockerfile: deploy_public/Dockerfile
+    environment:
+      FALKORDB_HOST: db
+      FALKORDB_PORT: "6379"
+      FALKORDB_PASSWORD: "${PUBLIC_DB_PASSWORD}"
+      CONTRAFLOW_LLM_BASE_URL: http://host.lima.internal:11434/v1
+      CONTRAFLOW_LLM_MODEL: qwen2.5:7b
+      PUBLIC_ORIGIN: "${PUBLIC_ORIGIN:-http://127.0.0.1:8008}"
+      PUBLIC_STATE_DIR: /state
+    ports: ["127.0.0.1:8008:8080"]
+    volumes:
+      - visitor-state:/state
+    read_only: true
+    tmpfs: ["/tmp:size=64m,noexec,nosuid"]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    restart: unless-stopped
+    mem_limit: 768m
+    cpus: 2
+    pids_limit: 128
+    depends_on:
+      db: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/api/health',timeout=2)"]
+      interval: 15s
+      timeout: 3s
+      retries: 3
+    logging:
+      driver: json-file
+      options: {max-size: "5m", max-file: "3"}
+volumes:
+  graph-data:
+  visitor-state:

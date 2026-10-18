@@ -1,0 +1,18 @@
+{
+ "headline_before": "79.6 km",
+ "test_assumptions_s": 5.43,
+ "summary": "the original recommendation stays best in 2 of 5 tested variation(s)",
+ "rows": [
+  "assistance points: general hospitals (rule A) instead of public hospitals (rule B)\tnone improves access\t+0.62 km\tCHANGED: NO REPAIR HELPS",
+  "only Kotturpuram Bridge northbound is closed (other direction open)\tReopen Kotturpuram Bridge (northbound)\nrecovers 1.63 km\n\t+2.08 km\n\u2192 +0.44 km after\n\tREMAINS BEST",
+  "only Kotturpuram Bridge southbound is closed (other direction open)\tnone improves access\t+0.44 km\tORIGINAL NOT APPLICABLE",
+  "Reopen Kotturpuram Bridge (northbound) is not possible (must stay closed)\tnone improves access\t+2.08 km\tORIGINAL EXCLUDED",
+  "commander reserves Maraimalai Adigal Bridge northbound for emergency vehicles (the open carriageway 4 zone route(s) use now)\tReopen Kotturpuram Bridge (northbound)\nrecovers 1.63 km\n\t+13.55 km\n\u2192 +11.92 km after\n\tREMAINS BEST"
+ ],
+ "headline_after": "79.6 km",
+ "desktop_horizontal_overflow": false,
+ "mobile_horizontal_overflow": false,
+ "console_errors": [
+  "Failed to load resource: the server responded with a status of 404 (Not Found)"
+ ]
+}

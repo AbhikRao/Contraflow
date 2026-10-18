@@ -1,0 +1,10 @@
+.venv
+web/node_modules
+web/dist
+cache
+results
+feasibility
+tests
+.git
+*.log
+data/osm

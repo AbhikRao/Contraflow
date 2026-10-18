@@ -1,0 +1,43 @@
+# One-command stack: docker compose up --build  ->  http://127.0.0.1:8000
+# Ports are bound to localhost only. FalkorDB is not exposed by default (the app reaches it on the
+# compose network); uncomment its ports for local debugging. The planning agent uses a host Ollama if
+# running (free); otherwise its deterministic planner. For any public deployment add authentication/TLS
+# in front of the app and set FALKORDB_USERNAME / FALKORDB_PASSWORD for a protected database.
+#
+# Durability: the road graph, the investigation-memory graph (FalkorDB) and the memory journal live in named volumes.
+#   docker compose stop / start / restart      -> data kept
+#   docker compose up -d --force-recreate      -> containers replaced, volumes kept, data kept
+#   docker compose down                        -> containers removed, volumes kept, data kept
+#   docker compose down -v                     -> VOLUMES DELETED: investigation memory is gone (intentional reset only)
+services:
+  falkordb:
+    image: falkordb/falkordb:6.0.2@sha256:107455e862a824e45e8e9f5a7fbfdf5e00a08b14e13eae2577c72fd9e3f59ba6
+    # ports: ["127.0.0.1:6379:6379", "127.0.0.1:3000:3000"]
+    environment:
+      # append-only file on top of the image's RDB snapshots, so recent writes survive an unclean stop
+      REDIS_ARGS: "--appendonly yes --appendfsync everysec"
+    volumes:
+      - falkordb-data:/var/lib/falkordb/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 2s
+      retries: 30
+  app:
+    build: .
+    depends_on:
+      falkordb:
+        condition: service_healthy
+    ports: ["127.0.0.1:${CONTRAFLOW_PORT:-8000}:8000"]
+    extra_hosts: ["host.docker.internal:host-gateway"]
+    volumes:
+      - contraflow-memory:/app/data/memory      # append-only investigation-memory journal (replayed into an empty graph)
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/api/health').status==200 else 1)"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  falkordb-data:
+  contraflow-memory:

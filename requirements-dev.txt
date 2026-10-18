@@ -1,0 +1,10 @@
+-r requirements.txt
+geopandas==1.2.0
+networkx==3.4.2
+numpy==2.2.6
+osmnx==2.0.6
+pandas==3.0.6
+playwright==1.52.0
+pyproj==3.8.0
+pytest==8.3.5
+shapely==2.2.0

@@ -1,0 +1,18 @@
+[project]
+name = "contraflow"
+version = "0.0.1"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "falkordb==1.2.2",
+  "networkx==3.4.2",
+  "osmnx==2.0.6",
+  "numpy==2.2.6",
+  "pytest==8.3.5",
+  "fastapi==0.115.12",
+  "uvicorn==0.34.2",
+  "httpx==0.28.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

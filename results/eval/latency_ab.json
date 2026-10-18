@@ -1,0 +1,143 @@
+[
+ {
+  "condition": "per-intent tool subsets (current)",
+  "runs": [
+   {
+    "prompt": "Kotturpuram bridge might be flooded. Who is affected?",
+    "seconds": 13.0,
+    "model_turns": 2,
+    "tools_offered": 8,
+    "tool_calls": 3,
+    "mode": "llm",
+    "proposals": 0,
+    "ungrounded": []
+   },
+   {
+    "prompt": "What if Maraimalai Adigal northbound were blocked, keeping Kotturpuram reserved for emergency vehicles?",
+    "seconds": 45.8,
+    "model_turns": 4,
+    "tools_offered": 8,
+    "tool_calls": 6,
+    "mode": "llm",
+    "proposals": 0,
+    "ungrounded": []
+   },
+   {
+    "prompt": "Which roads matter most for hospital access?",
+    "seconds": 22.8,
+    "model_turns": 2,
+    "tools_offered": 4,
+    "tool_calls": 1,
+    "mode": "llm",
+    "proposals": 0,
+    "ungrounded": []
+   },
+   {
+    "prompt": "Saidapet bridge is blocked.",
+    "seconds": 17.7,
+    "model_turns": 2,
+    "tools_offered": 6,
+    "tool_calls": 2,
+    "mode": "llm",
+    "proposals": 1,
+    "ungrounded": []
+   }
+  ],
+  "median_s": 20.25,
+  "total_model_turns": 10
+ },
+ {
+  "condition": "all tools offered (previous)",
+  "runs": [
+   {
+    "prompt": "Kotturpuram bridge might be flooded. Who is affected?",
+    "seconds": 25.0,
+    "model_turns": 2,
+    "tools_offered": 18,
+    "tool_calls": 3,
+    "mode": "llm",
+    "proposals": 0,
+    "ungrounded": []
+   },
+   {
+    "prompt": "What if Maraimalai Adigal northbound were blocked, keeping Kotturpuram reserved for emergency vehicles?",
+    "seconds": 23.6,
+    "model_turns": 3,
+    "tools_offered": 18,
+    "tool_calls": 4,
+    "mode": "llm",
+    "proposals": 0,
+    "ungrounded": []
+   },
+   {
+    "prompt": "Which roads matter most for hospital access?",
+    "seconds": 4.9,
+    "model_turns": 2,
+    "tools_offered": 18,
+    "tool_calls": 0,
+    "mode": "llm",
+    "proposals": 0,
+    "ungrounded": []
+   },
+   {
+    "prompt": "Saidapet bridge is blocked.",
+    "seconds": 10.3,
+    "model_turns": 2,
+    "tools_offered": 18,
+    "tool_calls": 2,
+    "mode": "llm",
+    "proposals": 1,
+    "ungrounded": []
+   }
+  ],
+  "median_s": 16.950000000000003,
+  "total_model_turns": 9
+ },
+ {
+  "condition": "per-intent tool subsets (current, repeat)",
+  "runs": [
+   {
+    "prompt": "Kotturpuram bridge might be flooded. Who is affected?",
+    "seconds": 12.5,
+    "model_turns": 2,
+    "tools_offered": 8,
+    "tool_calls": 3,
+    "mode": "llm",
+    "proposals": 0,
+    "ungrounded": []
+   },
+   {
+    "prompt": "What if Maraimalai Adigal northbound were blocked, keeping Kotturpuram reserved for emergency vehicles?",
+    "seconds": 40.5,
+    "model_turns": 4,
+    "tools_offered": 8,
+    "tool_calls": 6,
+    "mode": "llm",
+    "proposals": 0,
+    "ungrounded": []
+   },
+   {
+    "prompt": "Which roads matter most for hospital access?",
+    "seconds": 26.1,
+    "model_turns": 2,
+    "tools_offered": 4,
+    "tool_calls": 1,
+    "mode": "llm",
+    "proposals": 0,
+    "ungrounded": []
+   },
+   {
+    "prompt": "Saidapet bridge is blocked.",
+    "seconds": 11.1,
+    "model_turns": 2,
+    "tools_offered": 6,
+    "tool_calls": 2,
+    "mode": "llm",
+    "proposals": 1,
+    "ungrounded": []
+   }
+  ],
+  "median_s": 19.3,
+  "total_model_turns": 10
+ }
+]

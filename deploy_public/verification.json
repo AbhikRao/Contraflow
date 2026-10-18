@@ -1,0 +1,353 @@
+{
+  "url": "http://127.0.0.1:8008",
+  "started_epoch": 1792330655.65908,
+  "checks": [
+    {
+      "name": "homepage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cookie_http_only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "security_headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "homepage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cookie_http_only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "security_headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "health_does_not_enumerate_graphs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "real_network",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "visitor_A_starts_empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "visitor_B_starts_empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /docs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /redoc",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /openapi.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /mcp",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /sse",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /api/mcp",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /api/query",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /.env",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /api/tags",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "blocked /v1/models",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "csrf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "body_bound",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "scenario_bound",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no_cookie_denied",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "/api/evaluate",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "locked TVK",
+      "pass": true,
+      "detail": {
+        "eligible_zones": 45,
+        "total_delta_m": 0.0,
+        "affected_zones": 0,
+        "cut_off": [],
+        "largest": null
+      }
+    },
+    {
+      "name": "/api/evaluate",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "locked MAB",
+      "pass": true,
+      "detail": {
+        "eligible_zones": 45,
+        "total_delta_m": 11920.5,
+        "affected_zones": 5,
+        "cut_off": [],
+        "largest": {
+          "zone": "guindy",
+          "delta_m": 3629.6
+        }
+      }
+    },
+    {
+      "name": "/api/evaluate",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "locked ALL",
+      "pass": true,
+      "detail": {
+        "eligible_zones": 45,
+        "total_delta_m": 13554.1,
+        "affected_zones": 8,
+        "cut_off": [],
+        "largest": {
+          "zone": "guindy",
+          "delta_m": 3629.6
+        }
+      }
+    },
+    {
+      "name": "/api/interventions",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "locked recovery",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "/api/apply_candidate",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "server_application",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "/api/agent",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "investigation_no_application",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "/api/case/inv_76d1c7a87a",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "case_available",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "/api/case/inv_76d1c7a87a/robustness",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "test_assumptions",
+      "pass": true,
+      "detail": {
+        "summary": "the original recommendation stays best in 2 of 5 tested variation(s)",
+        "elapsed_ms": 4195.1
+      }
+    },
+    {
+      "name": "cross_visitor_case_denied",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cross_visitor_memory_empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cross_visitor_evidence_empty",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "/api/agent",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "cross_visitor_decision_denied",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "/api/memory/decision",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "model_status_private",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ollama_ready",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "SSE_content_type",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "concurrent_model_rejected",
+      "pass": true,
+      "detail": {
+        "detail": {
+          "code": "agent_busy",
+          "message": "Another investigation is running. Please retry shortly."
+        }
+      }
+    },
+    {
+      "name": "real_Qwen",
+      "pass": true,
+      "detail": {
+        "kind": "llm",
+        "label": "Live LLM \u00b7 qwen2.5:7b (local, free)",
+        "model": "qwen2.5:7b"
+      }
+    },
+    {
+      "name": "stream_before_final",
+      "pass": true,
+      "detail": {
+        "total_s": 20.52,
+        "steps": [
+          {
+            "seconds": 13.47,
+            "kind": "tool",
+            "tool": "investigate_disruption"
+          },
+          {
+            "seconds": 20.51,
+            "kind": "tool",
+            "tool": "rank_recovery"
+          }
+        ]
+      }
+    },
+    {
+      "name": "read_only_investigation",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "other_visitor_still_private",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "active_visitor_survives_flood",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "homepage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "cookie_http_only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "security_headers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "new_visitor_after_flood",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "finished_epoch": 1792330683.5716171,
+  "pass": true
+}

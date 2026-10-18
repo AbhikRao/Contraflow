@@ -1,0 +1,17 @@
+.venv/
+node_modules/
+cache/
+__pycache__/
+*.pyc
+.DS_Store
+web/dist/
+.pytest_cache/
+*.log
+.env
+.api.log
+.web.log
+.claude/
+data/memory/
+
+# Retain recorded setup evidence; runtime logs remain ignored.
+!results/setup/compose_fresh_clone.log

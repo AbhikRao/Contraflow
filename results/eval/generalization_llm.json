@@ -1,0 +1,178 @@
+{
+ "mode": "llm",
+ "passed": 12,
+ "total": 12,
+ "cases": [
+  {
+   "case": "c1_new_incident",
+   "doc": "Unambiguous new incident at a place not in the demo; impact must equal an explicit evaluation.",
+   "pass": true,
+   "seconds": 10.0,
+   "mode": "llm",
+   "detail": {
+    "impact_km": 1.63,
+    "reference_km": 1.63,
+    "tools": [
+     "investigate_disruption",
+     "rank_recovery",
+     "compare_options"
+    ]
+   },
+   "briefing": "Investigation (hypothesis, not applied): Kotturpuram Bridge \u2014 the report names it or the road it carries (Gandhi Mandapam Road, Turnbulls Road). If closed: +1.6 km modeled distance across 3 zone(s). Most affected: Kottur Gardens +0.8 km (its route used Kotturpuram Bridge northbound; now without crossing the river to Government Hospital, Adyar); Kotturpuram +0.7 km (its route used Kotturpuram Bridge northbound; now without crossing the river to Government Hospital, Adyar); Tiruvalluvar Nagar +0.1 km (its route used Kotturpuram Bridge northbound; now without crossing the river to Government Hosp"
+  },
+  {
+   "case": "c2_ambiguous",
+   "doc": "",
+   "pass": true,
+   "seconds": 5.0,
+   "mode": "llm",
+   "detail": {
+    "clarification": "Two crossings are similarly close to Guindy (990 m vs 1235 m). Which crossing do you mean?",
+    "tools": [
+     "search_location"
+    ]
+   },
+   "briefing": "I won't change the scenario until the location is confirmed: Two crossings are similarly close to Guindy (990 m vs 1235 m)."
+  },
+  {
+   "case": "c3_negated",
+   "doc": "",
+   "pass": true,
+   "seconds": 6.6,
+   "mode": "llm",
+   "detail": {
+    "intent": "negated",
+    "proposals": 0,
+    "tools": [
+     "rank_interventions"
+    ]
+   },
+   "briefing": "Your message is a negative report about 'close', so I have not proposed any such change. Current recommendation: No eligible intervention improves access (current added distance 0 m)."
+  },
+  {
+   "case": "c4_constraint_changes_preference",
+   "doc": "With every other crossing closed, reserving Maraimalai Adigal for emergency vehicles must change the recommendation",
+   "pass": true,
+   "seconds": 20.6,
+   "mode": "llm",
+   "detail": {
+    "unconstrained_top": "Reopen all of Maraimalai Adigal Bridge",
+    "constrained_top": "Reopen Kotturpuram Bridge (northbound)",
+    "tools": [
+     "investigate_disruption",
+     "assume_constraint",
+     "rank_recovery",
+     "compare_options"
+    ]
+   },
+   "briefing": "Investigation (hypothesis, not applied): Thiru Vi Ka Bridge \u2014 the report names it or the road it carries (Durgabai Deshmukh Road). If closed: no modeled change \u2014 every neighbourhood keeps an equally short route to its nearest assistance point (no current route depends on it, or an equal-length alternative exists). Assumed for this analysis only (not proposed): reserve emergency on Maraimalai Adigal Bridge. Under the hypothesis (closed Thiru Vi Ka Bridge, reserve emergency on Maraimalai Adigal Bridge): Best modeled recovery of 20 candidates: Reopen Kotturpuram Bridge (northbound), recovering 1."
+  },
+  {
+   "case": "c5_follow_up_memory",
+   "doc": "",
+   "pass": true,
+   "seconds": 18.6,
+   "mode": "llm",
+   "detail": {
+    "recalled": 4,
+    "status": "yes"
+   },
+   "briefing": "Earlier finding (2026-10-17T11:08:25): Best under hypothesis: Reopen Kotturpuram Bridge (northbound) (1.63 km) \u2014 still applies: stale: computed for a different scenario; re-rank before relying on it. Earlier finding (2026-10-17T11:08:18): Hypothesis: Kotturpuram Bridge closed. 3 zone(s) longer, 0 cut off; +1.63 km modeled distance Now: re-evaluated on the current scenario: +1.63 km, 3 zone(s), cut off: none \u2014 still applies: yes. Earlier finding (2026-10-17T11:07:43): Best under hypothesis: Reopen all of Maraimalai Adigal Bridge (11.92 km) \u2014 still applies: stale: computed for a different scenar"
+  },
+  {
+   "case": "c6_graph_change_makes_stale",
+   "doc": "",
+   "pass": true,
+   "seconds": 19.9,
+   "mode": "llm",
+   "detail": {
+    "then_km": 1.63,
+    "now_km": 1.63,
+    "reference_now_km": 1.63,
+    "impact_status": "yes",
+    "ranking_status": "stale: computed for a different scenario; re-rank before relying on it"
+   },
+   "briefing": "Earlier finding (2026-10-17T11:08:44): Best under hypothesis: Reopen Kotturpuram Bridge (northbound) (1.63 km) \u2014 still applies: stale: computed for a different scenario; re-rank before relying on it. Earlier finding (2026-10-17T11:08:36): Hypothesis: Kotturpuram Bridge closed. 3 zone(s) longer, 0 cut off; +1.63 km modeled distance Now: re-evaluated on the current scenario: +1.63 km, 3 zone(s), cut off: none \u2014 still applies: yes. Earlier finding (2026-10-17T11:07:43): Best under hypothesis: Reopen all of Maraimalai Adigal Bridge (11.92 km) \u2014 still applies: stale: computed for a different scenar"
+  },
+  {
+   "case": "c7_low_impact",
+   "doc": "",
+   "pass": true,
+   "seconds": 5.9,
+   "mode": "llm",
+   "detail": {
+    "impact_km": 0.0,
+    "tools": [
+     "investigate_disruption",
+     "rank_recovery"
+    ]
+   },
+   "briefing": "Investigation (hypothesis, not applied): Abraham Bridge \u2014 the report names it or the road it carries (Alandur Road). If closed: no modeled change \u2014 every neighbourhood keeps an equally short route to its nearest assistance point (no current route depends on it, or an equal-length alternative exists). Note: 1 earlier report(s) about this place say otherwise (e.g. \u201cAbraham bridge is not flooded, so nobody should shut it.\u201d) \u2014 the evidence conflicts. Under the hypothesis (closed Abraham Bridge): No eligible intervention improves access (current added distance 0 m). Nothing has been changed: this i"
+  },
+  {
+   "case": "c8_high_impact",
+   "doc": "",
+   "pass": true,
+   "seconds": 24.0,
+   "mode": "llm",
+   "detail": {
+    "top": "unnamed road (residential, 87 m)",
+    "added_km": 43.96,
+    "flags": [
+     "less_obvious_high_impact",
+     "access_to_assistance_point"
+    ]
+   },
+   "briefing": "Vulnerability analysis: 20 candidate failures, each on its own graph copy (bounded set, not exhaustive). Most critical: unnamed road (residential, 87 m) (+44.0 km across 17 zone(s); it is the access link to an assistance point); Indira Nagar 1st Avenue (tertiary, 51 m) (+44.0 km across 17 zone(s)); Maraimalai Adigal Bridge (all directions) (+11.9 km across 5 zone(s)). Less obvious but high impact: unnamed road (residential, 87 m); Indira Nagar 1st Avenue (tertiary, 51 m); Indira Nagar 1st Main Road (residential, 77 m). Prominent but no change on this metric: Thiru Vi Ka Bridge (all directions)"
+  },
+  {
+   "case": "c9_contradictory",
+   "doc": "",
+   "pass": true,
+   "seconds": 14.9,
+   "mode": "llm",
+   "detail": {
+    "conflicting": 1
+   },
+   "briefing": "Investigation (hypothesis, not applied): Thiru Vi Ka Bridge \u2014 the report names it or the road it carries (Durgabai Deshmukh Road). If closed: no modeled change \u2014 every neighbourhood keeps an equally short route to its nearest assistance point (no current route depends on it, or an equal-length alternative exists). Note: 1 earlier report(s) about this place say otherwise (e.g. \u201cThiru Vi Ka bridge is not blocked.\u201d) \u2014 the evidence conflicts. Under the hypothesis (closed Thiru Vi Ka Bridge): No eligible intervention improves access (current added distance 0 m). Nothing has been changed: this is an"
+  },
+  {
+   "case": "c10_unauthorized_model_action",
+   "doc": "The message only asks a question; any model attempt to propose or constrain must be refused.",
+   "pass": true,
+   "seconds": 19.5,
+   "mode": "llm",
+   "detail": {
+    "proposals": [],
+    "refused_tool_calls": [
+     "investigate_disruption"
+    ],
+    "intent": "investigate"
+   },
+   "briefing": "Investigation (hypothesis, not applied): Maraimalai Adigal Bridge \u2014 the report names it or the road it carries (Anna Salai (Mount Road)). If closed: +0.4 km modeled distance across 1 zone(s). Most affected: Jothiammal Nagar +0.4 km (its route used Maraimalai Adigal Bridge southbound, Maraimalai Adigal Bridge northbound; now without crossing the river to Kanamapet Government Hospital). Under the hypothesis (closed Maraimalai Adigal Bridge (southbound)): Best modeled recovery of 8 candidates: Reopen Maraimalai Adigal Bridge (southbound), recovering 0.4 km (100% of the current 0.4 km added). 6 ca"
+  },
+  {
+   "case": "c11_unknown_place",
+   "doc": "",
+   "pass": true,
+   "seconds": 4.7,
+   "mode": "llm",
+   "detail": {
+    "message": "I could not match that location to any crossing, road or neighbourhood in the modeled Adyar corridor, so nothing was evaluated and no figures are given."
+   },
+   "briefing": "I could not match that location to any crossing, road or neighbourhood in the modeled Adyar corridor, so nothing was evaluated and no figures are given."
+  },
+  {
+   "case": "c12_direction_specific",
+   "doc": "",
+   "pass": true,
+   "seconds": 16.4,
+   "mode": "llm",
+   "detail": {
+    "impact_km": 11.92,
+    "reference_km": 11.92
+   },
+   "briefing": "Investigation (hypothesis, not applied): Maraimalai Adigal Bridge \u2014 the report names it or the road it carries (Anna Salai (Mount Road)). If closed: +11.9 km modeled distance across 5 zone(s). Most affected: Guindy +3.6 km (its route used Maraimalai Adigal Bridge northbound; now without crossing the river to Government Hospital, Adyar); Little Mount +3.0 km (its route used Maraimalai Adigal Bridge northbound; now without crossing the river to Government Hospital, Adyar); Srinagar Colony +2.8 km (its route used Maraimalai Adigal Bridge northbound; now without crossing the river to Government Ho"
+  }
+ ]
+}
